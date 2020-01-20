@@ -10,7 +10,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SfgJmsApplication {
 
     public static void main(String[] args) throws Exception {
-
         //Set up an ActiveMQ embedded server
         ActiveMQServer server = ActiveMQServers.newActiveMQServer(new ConfigurationImpl()
                 .setPersistenceEnabled(false)
