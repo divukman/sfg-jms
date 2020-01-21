@@ -25,16 +25,16 @@
         </dependency>
 
 
-        <!--For embedded server-->
+<!--        &lt;!&ndash;For embedded server&ndash;&gt;
         <dependency>
             <groupId>org.apache.activemq</groupId>
             <artifactId>artemis-server</artifactId>
         </dependency>
-        <!--For embedded server-->
+        &lt;!&ndash;For embedded server&ndash;&gt;
         <dependency>
             <groupId>org.apache.activemq</groupId>
             <artifactId>artemis-jms-server</artifactId>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

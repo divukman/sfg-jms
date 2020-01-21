@@ -1,19 +1,16 @@
-# Getting Started
+# Spring Boot Active MQ Demo
 
-### Reference Documentation
-For further reference, please consider the following sections:
+### Run local ActiveMQ Broker in Docker
+`docker run -it --rm -p 8161:8161 -p 61616:61616 vromero/activemq-artemis`
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.2.2.RELEASE/maven-plugin/)
-* [Spring for Apache ActiveMQ Artemis](https://docs.spring.io/spring-boot/docs/2.2.2.RELEASE/reference/htmlsingle/#boot-features-artemis)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/2.2.2.RELEASE/reference/htmlsingle/#boot-features-developing-web-applications)
-* [Spring Boot DevTools](https://docs.spring.io/spring-boot/docs/2.2.2.RELEASE/reference/htmlsingle/#using-boot-devtools)
 
-### Guides
+### Connection info
 The following guides illustrate how to use some features concretely:
 
-* [Messaging with JMS](https://spring.io/guides/gs/messaging-jms/)
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
-
+`http://127.0.0.1:8161
+ artemis
+ simetraehcapa`
+ 
+ application.properties
+ `spring.artemis.user=artemis
+  spring.artemis.password=simetraehcapa`
