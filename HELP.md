@@ -5,11 +5,10 @@
 
 
 ### Connection info
-The following guides illustrate how to use some features concretely:
 
-`http://127.0.0.1:8161
- artemis
- simetraehcapa`
+ `http://127.0.0.1:8161`
+ `username: artemis`
+ `password: simetraehcapa`
  
  application.properties
  `spring.artemis.user=artemis
